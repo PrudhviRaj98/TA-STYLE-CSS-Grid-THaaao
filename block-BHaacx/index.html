@@ -1,0 +1,276 @@
+<!-- - Create a responsive layout according to the design shown below.
+
+#### Large Screen view(Above 768px)
+
+![CSS Grid Assignment II](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/css-grid/assignment-2/stimulus.png)
+
+#### Small Screen view(Below 768px)
+
+Find the small screen design in the assets folder.
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Pay attention to the codes, your code quality matters a lot.
+
+- Try to implement the layout as exactly as it has been provided in the design.
+
+- Pay attention to minor things like spacing, alignment, size, etc.
+
+- Use any font-family that suits better for the layout.
+
+- Once you are done with the assignment connect with the mentor and get the code reviewed. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <script src="https://kit.fontawesome.com/17bbe460ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+       <div class="container flex align_center justify_between">
+            <h2>Stimulus</h2>
+            <nav class="nav">
+
+                <label class="bars" for="toggle"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" id="toggle">
+
+                <ul class="ul home flex">
+
+                    <label  class=" cross" for="toggle"><i class="fas fa-times"></i></label>
+                    <input type="checkbox" id="toggle">
+
+                    <li><a class="home" href="">HOME</a></li>
+                    <li><a href="#aboutme">ABOUT ME</a></li>
+                    <li><a href="#experience">EXPERIENCES</a></li>
+                    <li><a href="">TESTIMONIAL</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+       </div>
+    </header>
+    <main>
+
+           <div class="grid_container">
+                <div class="item item_one item_1_3"></div>
+
+
+                <div class="item item_two item_3_5 flex align_center">
+                    <article class="article">
+                        <span>WELCOME TO MY WEBSITE</span>
+                        <h1>Hello, I am <strong>Stimulus</strong> currently based in New York city.</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint beatae cumque similique dolor in architecto, minima possimus debitis autem et vel exercitationem dolore inventore officiis dicta numquam nihil nulla error.</p>
+                        <div class="btn"><a href="">Get Started</a></div>
+                    </article>
+                </div>
+
+
+                <div class="item item_three item_1_3 flex align_center" id="aboutme">
+                    <article class="article">
+                        <h2>Donec auctor</h2>
+                        <span class="tagline">Sed Vulputate vitae diam quis bibendum</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio suscipit fuga deserunt neque itaque voluptate mollitia optio quas, at harum nam, placeat eligendi. Repellat maiores, debitis accusantium dicta deserunt in! Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit necessitatibus maxime facere minima molestiae iure accusantium nihil libero dolorum impedit quas corporis, quisquam laborum similique laudantium. Quia, tempora odit.</p>
+                    </article>
+                </div>
+
+
+                <div class="item item_four   item_3_5 flex align_center justify_between">
+                    <article class="article column flex justify_between align_center">
+                        <div class="left ">
+                            <img  src="assets/media/about-img.jpg" alt="about image"/>
+                        </div>
+                        <div class="right column">
+                            <h2>My Skills</h2>
+                            <p>Photoshop , HTML CSS JS WEB DESIGN</p>
+                            <div class="each_category">
+                                <div class="header flex align_center justify_between">
+                                    <h4>Frontend Design</h4>
+                                    <h4 class="Number_per">90%</h4>
+                                </div>
+
+                                <div class="white_line">
+                                    <div class="black_line"></div>
+                                </div>
+                            </div>
+
+
+                            <div class="each_category">
+                                <div class="header flex align_center justify_between">
+                                    <h4>Backend processing</h4>
+                                    <h4 class="Number_per">70%</h4>
+                                </div>
+
+                                <div class="white_line">
+                                    <div class="black_line black_line_second"></div>
+                                </div>
+                            </div>
+
+
+                            <div class="each_category">
+                                <div class="header flex align_center justify_between">
+                                    <h4>HTML5 & CSS3</h4>
+                                    <h4 class="Number_per">80%</h4>
+                                </div>
+
+                                <div class="white_line">
+                                    <div class="black_line black_line_third"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+
+
+                <div class="item media media1 ">
+                    <article class="article">
+                        <a href=""><i class="fas fa-desktop"></i></a>
+                        <h3>Interface Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi pariatur provident iure delectus aliquid rem laborum possimus repudiandae numquam voluptas moles</p>
+                    </article>
+                </div>
+
+                <div class="item media media2 two_media">
+                    <article class="article">
+                        <a href=""><i class="fab fa-telegram-plane"></i></i></a>
+                        <h3>Interface Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi pariatur provident iure delectus aliquid rem laborum possimus repudiandae numquam voluptas moles</p>
+                    </article>
+                </div>
+
+                <div class="item media media3 three_media">
+                    <article class="article">
+                        <a href=""><i class="fas fa-money-check"></i></a>
+                        <h3>Interface Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi pariatur provident iure delectus aliquid rem laborum possimus repudiandae numquam voluptas moles</p>
+                    </article>
+                </div>
+
+                <div class="item media media4 four_media">
+                    <article class="article">
+                        <a href=""><i class="fab fa-html5"></i></a>
+                        <h3>Interface Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi pariatur provident iure delectus aliquid rem laborum possimus repudiandae numquam voluptas moles</p>
+                    </article>
+                </div>
+
+                <div class="item item_nine item_1_3" id="experience">
+                   
+                </div>
+
+
+                <div class="item item_ten exp_edu item_3_5 flex align_center">
+                   <article class="article">
+                        <h2>My Experiences</h2>
+                        <small>Previous companies and my tasks</small>
+                        <div class="designer flex">
+                            <a href=""><i class="fas fa-laptop"></i></a>
+                            <div class="right">
+                                <h3>Graphic Designer <span>2014 JUL-2015 Sep</span></h3>
+                                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>
+                            </div>
+                        </div>
+
+                        <div class="designer flex">
+                            <a href=""><i class="fas fa-laptop"></i></a>
+                            <div class="right">
+                                <h3>Web Designer <span>2014 JUL-2015 Sep</span></h3>
+                                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>
+                            </div>
+                        </div>
+                   </article>
+
+
+                </div>
+
+
+
+                <div class="item item_eleven exp_edu item_1_3 flex align_center">
+                    <article class="article">
+                        <h2>My Education</h2>
+                        <small>Previous companies and my tasks</small>
+                        <div class="designer flex">
+                            <a href=""><i class="fas fa-laptop"></i></a>
+                            <div class="right">
+                                <h3>Graphic Designer <span>2014 JUL-2015 Sep</span></h3>
+                                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>
+                            </div>
+                        </div>
+
+                        <div class="designer flex">
+                            <a href=""><i class="fas fa-laptop"></i></a>
+                            <div class="right">
+                                <h3>Web Designer <span>2014 JUL-2015 Sep</span></h3>
+                                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>
+                            </div>
+                        </div>
+                   </article>
+
+                </div>
+
+
+                <div class="item item_twelve item_3_5">
+
+                </div>
+
+
+                <div class="item item_thirteen item_1_3 flex align_center" id="contact">
+
+                    <article class="article ">
+                        <h2>Say hello...</h2>
+                        <span>Integur ut consectetur est. In cursus orci non ipsum gravida dignissim.</span>
+                        <form action="php" method="POST">
+                            <fieldset>
+                                <input type="text" placeholder="Your Name">
+                                <input type="email" placeholder="Your Email">
+                                <textarea name="" id="" placeholder="WRite you message"></textarea>
+                                <input type="submit" placeholder="Send">
+                            </fieldset>
+                        </form>
+                    </article>
+
+                </div>
+
+
+                <div class="item item_forteen item_3_5">
+
+                    <article class="article flex column">
+                        <div class="left full_width">
+
+                        </div>
+                        <div class="right flex align_center">
+                            <article>
+                                <h3>Visit my office</h3>
+                                <span>456 New Street 22000, New York City. USA</span>
+                                <h3 class="contact">Contact</h3>
+                                <nav class="nav">
+                                    <ul>
+                                        <li><a href=""><i class="fas fa-phone-alt"></i> 01-0110-0220</a></li>
+                                        <li><a href=""><i class="far fa-envelope"></i>hello@company.co</a></li>
+                                        <li><a href=""><i class="fas fa-globe-asia"></i>Company.co</a></li>
+                                    </ul>
+                                </nav>
+                            </article>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="item item_fifteeen">
+                    <div class="container">
+                        <address>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.919515571368!2d76.35140991550763!3d32.20639932016669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1621233649341!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </address>
+                    </div>
+                </div>
+           </div>
+    </main>
+</body>
+</html>
