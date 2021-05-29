@@ -35,242 +35,216 @@ Find the small screen design in the assets folder.
 </head>
 <body>
     <header>
-       <div class="container flex align_center justify_between">
-            <h2>Stimulus</h2>
-            <nav class="nav">
-
-                <label class="bars" for="toggle"><i class="fas fa-bars"></i></label>
-                <input type="checkbox" id="toggle">
-
+        <div class="container flex align_center justify_between">
+             <h2>Stimulus</h2>
+             <nav class="nav">
                 <ul class="ul home flex">
-
-                    <label  class=" cross" for="toggle"><i class="fas fa-times"></i></label>
-                    <input type="checkbox" id="toggle">
-
                     <li><a class="home" href="">HOME</a></li>
                     <li><a href="#aboutme">ABOUT ME</a></li>
                     <li><a href="#experience">EXPERIENCES</a></li>
                     <li><a href="">TESTIMONIAL</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
-            </nav>
-       </div>
-    </header>
+             </nav>
+        </div>
+     </header>
     <main>
+        <section class=" container hero grid-container">
+            <div class="item1"></div>
+            <div class="item2">
+                <h2>Welcome to my website</h2>
+                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, corporis!</h4>
+                <p>Lorem ipsum dolor sit Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut eligendi officiis reprehenderit culpa alias doloribus magni adipisci maxime consequuntur doloremque! amet consectetur adipisicing elit. Quisquam porro nam dolorem minima voluptatem placeat eum exercitationem odit dolores molestiae.</p>
+                <a href="#">Get Started</a>
+            </div>
 
-           <div class="grid_container">
-                <div class="item item_one item_1_3"></div>
-
-
-                <div class="item item_two item_3_5 flex align_center">
-                    <article class="article">
-                        <span>WELCOME TO MY WEBSITE</span>
-                        <h1>Hello, I am <strong>Stimulus</strong> currently based in New York city.</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint beatae cumque similique dolor in architecto, minima possimus debitis autem et vel exercitationem dolore inventore officiis dicta numquam nihil nulla error.</p>
-                        <div class="btn"><a href="">Get Started</a></div>
-                    </article>
+            <div class="item3">
+                <h3>lorem ipsum</h3>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, ipsa!</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga pariatur odio praesentium cum. Nihil possimus laudantium quis dolorum dolores veritatis saepe necessitatibus excepturi tenetur ab quibusdam sed assumenda, perspiciatis asperiores?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga pariatur odio praesentium cum. Nihil possimus laudantium quis dolorum dolores veritatis saepe necessitatibus excepturi tenetur ab quibusdam sed assumenda, perspiciatis asperiores?</p>
+            </div>
+            <div class="about">
+                <img src="./assets/media/about-img.jpg" alt="">
+            </div>
+            <div class="skills">
+                <h3>My Skills</h3>
+                <h4>Photoshop, HTML CSS JS, Web Design</h4>
+                <div>
+                    <div class="flex-all">
+                        <h2>Front Design</h2>
+                        <strong>52%</strong>
+                    </div>
+                    <progress id="file" value="52" max="100"> 32% </progress>
                 </div>
-
-
-                <div class="item item_three item_1_3 flex align_center" id="aboutme">
-                    <article class="article">
-                        <h2>Donec auctor</h2>
-                        <span class="tagline">Sed Vulputate vitae diam quis bibendum</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio suscipit fuga deserunt neque itaque voluptate mollitia optio quas, at harum nam, placeat eligendi. Repellat maiores, debitis accusantium dicta deserunt in! Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit necessitatibus maxime facere minima molestiae iure accusantium nihil libero dolorum impedit quas corporis, quisquam laborum similique laudantium. Quia, tempora odit.</p>
-                    </article>
+                <div>
+                    <div class="flex-all">
+                        <h2>Backend processing</h2>
+                        <strong>72%</strong>
+                    </div>
+                    <progress id="file" value="72" max="100"> 32% </progress>
                 </div>
-
-
-                <div class="item item_four   item_3_5 flex align_center justify_between">
-                    <article class="article column flex justify_between align_center">
-                        <div class="left ">
-                            <img  src="assets/media/about-img.jpg" alt="about image"/>
-                        </div>
-                        <div class="right column">
-                            <h2>My Skills</h2>
-                            <p>Photoshop , HTML CSS JS WEB DESIGN</p>
-                            <div class="each_category">
-                                <div class="header flex align_center justify_between">
-                                    <h4>Frontend Design</h4>
-                                    <h4 class="Number_per">90%</h4>
-                                </div>
-
-                                <div class="white_line">
-                                    <div class="black_line"></div>
-                                </div>
-                            </div>
-
-
-                            <div class="each_category">
-                                <div class="header flex align_center justify_between">
-                                    <h4>Backend processing</h4>
-                                    <h4 class="Number_per">70%</h4>
-                                </div>
-
-                                <div class="white_line">
-                                    <div class="black_line black_line_second"></div>
-                                </div>
-                            </div>
-
-
-                            <div class="each_category">
-                                <div class="header flex align_center justify_between">
-                                    <h4>HTML5 & CSS3</h4>
-                                    <h4 class="Number_per">80%</h4>
-                                </div>
-
-                                <div class="white_line">
-                                    <div class="black_line black_line_third"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
+                <div>
+                    <div class="flex-all">
+                        <h2>HTML & CSS3</h2>
+                        <strong>22%</strong>
+                    </div>
+                    <progress id="file" value="22" max="100"> 32% </progress>
                 </div>
+            </div>
 
+            <div class="cards">
+                <i class="fas fa-desktop"></i>
+                <h2>Interface Design</h2>
+                <p>Lorem ipsum eveniet suscipit consequatur. Magni praesentium veniam quidem ex beatae incidunt quae!</p>
+            </div>
 
+            <div class="cards card-2">
+                <i class="fab fa-telegram-plane"></i>
+                <h2>Media Strategy</h2>
+                <p>Lorem ipsum eveniet suscipit consequatur. Magni praesentium veniam quidem ex beatae incidunt quae!</p>
+            </div>
 
-                <div class="item media media1 ">
-                    <article class="article">
-                        <a href=""><i class="fas fa-desktop"></i></a>
-                        <h3>Interface Design</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi pariatur provident iure delectus aliquid rem laborum possimus repudiandae numquam voluptas moles</p>
-                    </article>
-                </div>
+            <div class="cards card-3">
+                <i class="fas fa-mobile-alt"></i>
+                <h2>Mobile App</h2>
+                <p>Lorem ipsum eveniet suscipit consequatur. Magni praesentium veniam quidem ex beatae incidunt quae!</p>
+            </div>
 
-                <div class="item media media2 two_media">
-                    <article class="article">
-                        <a href=""><i class="fab fa-telegram-plane"></i></i></a>
-                        <h3>Interface Design</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi pariatur provident iure delectus aliquid rem laborum possimus repudiandae numquam voluptas moles</p>
-                    </article>
-                </div>
-
-                <div class="item media media3 three_media">
-                    <article class="article">
-                        <a href=""><i class="fas fa-money-check"></i></a>
-                        <h3>Interface Design</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi pariatur provident iure delectus aliquid rem laborum possimus repudiandae numquam voluptas moles</p>
-                    </article>
-                </div>
-
-                <div class="item media media4 four_media">
-                    <article class="article">
-                        <a href=""><i class="fab fa-html5"></i></a>
-                        <h3>Interface Design</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi pariatur provident iure delectus aliquid rem laborum possimus repudiandae numquam voluptas moles</p>
-                    </article>
-                </div>
-
-                <div class="item item_nine item_1_3" id="experience">
-                   
-                </div>
-
-
-                <div class="item item_ten exp_edu item_3_5 flex align_center">
-                   <article class="article">
-                        <h2>My Experiences</h2>
-                        <small>Previous companies and my tasks</small>
-                        <div class="designer flex">
-                            <a href=""><i class="fas fa-laptop"></i></a>
-                            <div class="right">
-                                <h3>Graphic Designer <span>2014 JUL-2015 Sep</span></h3>
-                                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>
-                            </div>
-                        </div>
-
-                        <div class="designer flex">
-                            <a href=""><i class="fas fa-laptop"></i></a>
-                            <div class="right">
-                                <h3>Web Designer <span>2014 JUL-2015 Sep</span></h3>
-                                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>
-                            </div>
-                        </div>
-                   </article>
-
-
-                </div>
-
-
-
-                <div class="item item_eleven exp_edu item_1_3 flex align_center">
-                    <article class="article">
-                        <h2>My Education</h2>
-                        <small>Previous companies and my tasks</small>
-                        <div class="designer flex">
-                            <a href=""><i class="fas fa-laptop"></i></a>
-                            <div class="right">
-                                <h3>Graphic Designer <span>2014 JUL-2015 Sep</span></h3>
-                                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>
-                            </div>
-                        </div>
-
-                        <div class="designer flex">
-                            <a href=""><i class="fas fa-laptop"></i></a>
-                            <div class="right">
-                                <h3>Web Designer <span>2014 JUL-2015 Sep</span></h3>
-                                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>
-                            </div>
-                        </div>
-                   </article>
-
-                </div>
-
-
-                <div class="item item_twelve item_3_5">
-
-                </div>
-
-
-                <div class="item item_thirteen item_1_3 flex align_center" id="contact">
-
-                    <article class="article ">
-                        <h2>Say hello...</h2>
-                        <span>Integur ut consectetur est. In cursus orci non ipsum gravida dignissim.</span>
-                        <form action="php" method="POST">
-                            <fieldset>
-                                <input type="text" placeholder="Your Name">
-                                <input type="email" placeholder="Your Email">
-                                <textarea name="" id="" placeholder="WRite you message"></textarea>
-                                <input type="submit" placeholder="Send">
-                            </fieldset>
-                        </form>
-                    </article>
-
-                </div>
-
-
-                <div class="item item_forteen item_3_5">
-
-                    <article class="article flex column">
-                        <div class="left full_width">
-
-                        </div>
-                        <div class="right flex align_center">
-                            <article>
-                                <h3>Visit my office</h3>
-                                <span>456 New Street 22000, New York City. USA</span>
-                                <h3 class="contact">Contact</h3>
-                                <nav class="nav">
-                                    <ul>
-                                        <li><a href=""><i class="fas fa-phone-alt"></i> 01-0110-0220</a></li>
-                                        <li><a href=""><i class="far fa-envelope"></i>hello@company.co</a></li>
-                                        <li><a href=""><i class="fas fa-globe-asia"></i>Company.co</a></li>
-                                    </ul>
-                                </nav>
-                            </article>
-                        </div>
-                    </article>
-
-                </div>
-
-                <div class="item item_fifteeen">
-                    <div class="container">
-                        <address>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.919515571368!2d76.35140991550763!3d32.20639932016669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1621233649341!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </address>
+            <div class="cards card-4">
+                <i class="fab fa-html5"></i>
+                <h2>Coding</h2>
+                <p>Lorem ipsum eveniet suscipit consequatur. Magni praesentium veniam quidem ex beatae incidunt quae!</p>
+            </div>
+            <div class="experince">
+                <img src="./assets/media/experience-img.jpg" alt="">
+            </div>
+            <div class="my-experience">
+                <h2>My Experinces</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nesciunt.</h4>
+                <div class="flex exp">
+                    <div>
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div>
+                        <h3>Graphic Designers <span>2014 Jul - 2015 Sep</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, rerum?</p>
                     </div>
                 </div>
-           </div>
+                <div class="flex exp">
+                    <div>
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div>
+                        <h3>Web Designers <span>2014 Jul - 2015 Sep</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, rerum?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="my-experience back">
+                <h2>My Experinces</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nesciunt.</h4>
+                <div class="flex exp">
+                    <div>
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div>
+                        <h3>Graphic Designers <span>2014 Jul - 2015 Sep</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, rerum?</p>
+                    </div>
+                </div>
+                <div class="flex exp">
+                    <div>
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div>
+                        <h3>Web Designers <span>2014 Jul - 2015 Sep</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, rerum?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="edu">
+                <img src="./assets/media/education-img.jpg" alt="">
+            </div>
+
+            <div class="contact">
+                <h2>Say Hello</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, tempore.</p>
+                <div class=" flex column">
+                    <input type="text" name="Your Name" placeholder="Your Name">
+                    <hr>
+                    <input type="text" placeholder="Email">
+                    <hr>
+                    <input class="message" type="text" placeholder="Message">
+                    <hr class="message-hr">
+                </div>
+                <a href="#">Send Message</a>
+            </div>
+
+            <div class="contact-img">
+                <img src="./assets/media/contact-img.jpg" alt="">
+            </div>
+            <div class="contact-icons">
+                <h2>Visit my office</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h3>Contact</h3>
+
+                <div class="flex margin">
+                    <i class="fas fa-phone-alt"></i>
+                    <h5>0100292934</h5>
+                </div>
+                <div class="flex margin">
+                    <i class="far fa-envelope"></i>
+                    <h4>prudhvi@gmail.com</h4>
+                </div>
+                <div class="flex margin">
+                    <i class="fas fa-globe-europe"></i>
+                    <h4>compnay.co</h4>
+                </div>
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.919684030994!2d76.35140991501416!3d32.20639478114801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1622301026170!5m2!1sen!2sin" width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
     </main>
 </body>
+<footer class="footer">
+    <small>Copyright &copy; 2020 Your company | design: <span>templatemo</span> </small>
+    <nav>
+        <ul class="flex justify-between">
+            <li>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fab fa-google-plus-g"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fas fa-basketball-ball"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</footer>
 </html>
