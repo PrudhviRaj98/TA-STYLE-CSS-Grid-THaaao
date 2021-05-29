@@ -53,28 +53,3 @@ table {
 }
 
 // ---------------------custome styles
-
-.container{
-    max-width: 1500px;
-    width: 100%;
-    margin: auto;
-    // border: 1px solid red;
-}
-.flex{
-    display: flex;
-}
-.justify_between{
-    justify-content: space-between;
-}
-.align_center{
-    align-items: center;
-}
-.justify_center{
-    justify-content: center;
-}
-a{
-    text-decoration: none;
-}
-
-$primary_color : rgb(252,104,62);
-$secondary_color : rgb(236,175,78);
